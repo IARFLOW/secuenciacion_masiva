@@ -1,0 +1,30 @@
+# Nextflow working directories
+work/
+.nextflow/
+.nextflow.log*
+
+# Pipeline results (large files, not for git)
+results/
+test_results/
+
+# Sequencing data files
+*.fastq.gz
+*.fastq
+*.fq.gz
+*.fq
+*.fasta
+*.fa
+*.bam
+*.sam
+*.vcf
+*.bed
+
+# Databases (too large for git)
+databases/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/

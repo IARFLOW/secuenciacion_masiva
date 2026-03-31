@@ -1,0 +1,2 @@
+ID	R1	R2	LongFastQ	Fast5	GenomeSize
+sample1	/ruta/a/sample1_R1.fastq.gz	/ruta/a/sample1_R2.fastq.gz	/ruta/a/sample1_ont.fastq.gz	NA	4.6m
