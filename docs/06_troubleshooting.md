@@ -52,7 +52,7 @@ sudo apt install -y default-jre
 Usar `-resume` para continuar desde el ultimo paso exitoso:
 
 ```bash
-nextflow run nf-core/bacass -r 2.5.0 -profile test,docker,arm --annotation_tool bakta --outdir ./test_results -resume
+nextflow run nf-core/bacass -r 2.5.0 -profile test,docker,arm --annotation_tool bakta --baktadb_download true --outdir ./test_results -resume
 ```
 
 ### Error de memoria: "Process exceeded memory limit"

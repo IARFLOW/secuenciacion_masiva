@@ -101,6 +101,7 @@ nextflow run nf-core/bacass \
     -r 2.5.0 \
     -profile test,docker,arm \
     --annotation_tool bakta \
+    --baktadb_download true \
     --outdir ./test_results
 
 # Para Intel Mac:
@@ -108,6 +109,7 @@ nextflow run nf-core/bacass \
     -r 2.5.0 \
     -profile test,docker \
     --annotation_tool bakta \
+    --baktadb_download true \
     --outdir ./test_results
 ```
 
@@ -130,5 +132,5 @@ softwareupdate --install-rosetta --agree-to-license  # Solo Apple Silicon
 curl -s https://get.nextflow.io | bash
 chmod +x nextflow && mv nextflow $HOME/.local/bin/
 nextflow pull nf-core/bacass -r 2.5.0
-nextflow run nf-core/bacass -r 2.5.0 -profile test,docker,arm --annotation_tool bakta --outdir ./test_results
+nextflow run nf-core/bacass -r 2.5.0 -profile test,docker,arm --annotation_tool bakta --baktadb_download true --outdir ./test_results
 ```

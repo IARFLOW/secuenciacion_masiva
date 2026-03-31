@@ -87,6 +87,7 @@ nextflow run nf-core/bacass \
     -r 2.5.0 \
     -profile test,docker \
     --annotation_tool bakta \
+    --baktadb_download true \
     --outdir ./test_results
 ```
 

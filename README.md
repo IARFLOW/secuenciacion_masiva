@@ -41,6 +41,7 @@ nextflow run nf-core/bacass \
     -r 2.5.0 \
     -profile test,docker,arm \
     --annotation_tool bakta \
+    --baktadb_download true \
     --outdir ./test_results
 
 # 4. Ejecutar con datos reales
